@@ -53,7 +53,7 @@ function setup(){
    cvs.position(0,0);
 
    COLUMNS = floor((windowWidth-MARGIN*2)/GRIDBOX);
-   ROWS = floor((windowHeight-MARGIN)/GRIDBOX);
+   ROWS = floor((windowHeight-MARGIN*2)/GRIDBOX);
    STARTX = windowWidth - GRIDBOX*COLUMNS - MARGIN;
    STARTY = windowHeight - GRIDBOX*ROWS - MARGIN;
 
