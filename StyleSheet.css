@@ -125,7 +125,7 @@ input[type=text]:focus {
     border-radius: 10px; 
    	position: absolute;
    	top:80.8%;
-   	left: 60%;
+   	left: 62%;
    	transition: background-color 300ms ease-in-out;
    	visibility: hidden;
    	z-index: 10;
