@@ -51,7 +51,7 @@ input[type=text] {
 	height: 40px;
 	position: absolute;
 	top: 80%;
-	left: 34%;
+	left: 36%;
 	visibility: hidden;
 	z-index: 10;
 
@@ -73,7 +73,7 @@ input[type=text] {
 	height: 40px;
 	position: absolute;
 	top: 80%;
-	left: 53%;
+	left: 51%;
 	visibility: hidden;
 	z-index: 10;
 }
@@ -83,7 +83,7 @@ input[type=text] {
 	height: 40px;
 	position: absolute;
 	top: 80%;
-	left: 60%;
+	left: 56%;
 	visibility: visible;
 	z-index: 10;
 }
@@ -125,7 +125,7 @@ input[type=text]:focus {
     border-radius: 10px; 
    	position: absolute;
    	top:80.8%;
-   	left: 67%;
+   	left: 63%;
    	transition: background-color 300ms ease-in-out;
    	visibility: hidden;
    	z-index: 10;
