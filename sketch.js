@@ -52,10 +52,10 @@ function setup(){
   let cvs = createCanvas(windowWidth, windowHeight);
    cvs.position(0,0);
 
-   COLUMNS = floor((windowWidth-MARGIN)/GRIDBOX);
+   COLUMNS = floor((windowWidth-MARGIN*2)/GRIDBOX);
    ROWS = floor((windowHeight-MARGIN)/GRIDBOX);
-   STARTX = windowWidth - GRIDBOX*COLUMNS - MARGIN/2;
-   STARTY = windowHeight - GRIDBOX*ROWS - MARGIN/2;
+   STARTX = windowWidth - GRIDBOX*COLUMNS - MARGIN*2;
+   STARTY = windowHeight - GRIDBOX*ROWS - MARGIN*2;
 
   frameRate(30);
   textSize(12)
