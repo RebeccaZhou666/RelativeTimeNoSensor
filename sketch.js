@@ -54,8 +54,8 @@ function setup(){
 
    COLUMNS = floor((windowWidth-MARGIN*2)/GRIDBOX);
    ROWS = floor((windowHeight-MARGIN*2)/GRIDBOX);
-   STARTX = (windowWidth - GRIDBOX*COLUMNS - MARGIN*2)/2+MARGIN;
-   STARTY = (windowHeight - GRIDBOX*ROWS - MARGIN*2)+MARGIN;
+   STARTX = windowWidth - GRIDBOX*COLUMNS;
+   STARTY = windowHeight - GRIDBOX*ROWS;
 
   frameRate(30);
   textSize(12)
