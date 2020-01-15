@@ -1,0 +1,200 @@
+/* */
+
+html {
+	font-family: monospace, sans-serif;
+	background-color: rgba(255,255,255,1);
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	color: rgba(255,255,255,0.8);
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url('assets/RobotoCondensed-Light.ttf');
+}
+
+body{
+	display: white;
+	margin: 0; 
+	font-family: myFirstFont,  sans-serif;
+}
+
+
+
+/*h2{
+	display: block;
+	font-size: 2em;
+	margin: 1em;
+	font-weight: bold;
+	color: #64B2CD;
+}
+
+.addH2{
+	color: #ffffff;
+	font-size: 1.2em
+	/*padding: 10px;*/
+
+input[type=text] {
+	padding:5px; 
+	border:1px solid #f0f0f0; 
+	/*width: 120px;*/
+	color: #DADADA;
+	size: 15;
+	visibility: hidden;
+	/*-webkit-border-radius: 5px;*/
+    /*border-radius: 5px;*/
+}
+
+.name{
+	width:120px;
+	height: 40px;
+	position: absolute;
+	top: 80%;
+	left: 38%;
+	visibility: hidden;
+	z-index: 10;
+
+}
+
+.D{
+	width:40px;
+	height: 40px;
+	position: absolute;
+	top: 80%;
+	left: 46%;
+	visibility: hidden;
+	z-index: 10;
+
+}
+
+.M{
+	width:40px;
+	height: 40px;
+	position: absolute;
+	top: 80%;
+	left: 49%;
+	visibility: hidden;
+	z-index: 10;
+}
+
+.Y{
+	width:80px;
+	height: 40px;
+	position: absolute;
+	top: 80%;
+	left: 52%;
+	visibility: visible;
+	z-index: 10;
+}
+
+input[type=text]:focus {
+	border-color:#f0f0f0; 
+	color: #393e46; 
+}
+
+
+/*input[type=submit] {
+	padding:5px 15px; 
+	width:100px;
+	height: 40px;
+	size: 18;
+	background:#393e46; 
+	color: #f0f0f0;
+	border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 10px; 
+   	position: absolute;
+   	top:70.8%;
+   	left: 65%;
+   	transition: background-color 300ms ease-in-out;
+   	visibility: hidden;
+
+}*/
+.submit {
+	padding:5px 15px; 
+	width:100px;
+	height: 40px;
+	size: 20;
+	background:#393e46; 
+	color: #f0f0f0;
+	border:0 none;
+    cursor:pointer;
+    /*-webkit-border-radius: 5px;*/
+    border-radius: 10px; 
+   	position: absolute;
+   	top:80.8%;
+   	left: 58%;
+   	transition: background-color 300ms ease-in-out;
+   	visibility: hidden;
+   	z-index: 10;
+
+}
+
+
+
+/*button{
+	-webkit-appearance: button;
+	-webkit-writing-mode: horizontal-tb !important;
+	text-rendering: auto;
+	letter-spacing: normal;
+	word-spacing: normal;
+	display: inline-block;
+	align-items: flex-start;
+	text-transform: none;
+	text-indent: none;
+	text-shadow: none;
+	box-sizing: border-box;
+	/*font: 400 11px;
+	padding: 10px 10px 5px
+	border-width: 0;
+	border-style: transparent;
+	border-image: initial;
+	/*font-family: myFirstFont;*/
+}
+/**/
+
+/*
+.submit{
+	z-index: 1;
+	cursor: pointer;
+	/*margin-top: 600px;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/*/
+	/*margin-bottom: 20px;*/
+	/*margin-top: 20px;*/
+	/*font-size: 18px;*/
+	/*display: block;*/
+/*	width: 120px;
+	height: 40px;
+	background-color: #393e46;
+	color: #f0f0f0;
+	text-align: center;
+	
+	font-family: myFirstFont;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: 70%;
+	left: 52%;
+	/*right: auto;*/
+	/*visibility: hidden;*/
+
+}
+
+input:hover {
+  background-color: #DADADA;
+  color: #ffffff;
+}
+
+
+
+
+.defaultCanvas0 {
+	position: absolute;
+	top: 0;
+
+
+}
+
